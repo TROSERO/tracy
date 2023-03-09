@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>free code camp survey form</title>
+    <link rel="stylesheet" href="surveyform.css">
+</head>
+
+<body>
+    <h1>FreeCodeCamp Survey Form</h1>
+    <h3><em>Thank you for taking the time to help us improve the platform</em></h3>
+    <form action="/tlorcreative.html"></form>
+    <div class="form">
+        <fieldset>
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name" name="name">
+            <label>Email</label>
+            <input type="text" placeholder="Enter your email" name="email">
+            <label>Age(optional)</label>
+            <input type="number" placeholder="Age" name="age">
+        </fieldset>
+        <fieldset>
+            <legend> Which option best describes your current role?</legend>
+            <select name="role" id="role-select">
+                <option value="">Select current role</option>
+                <option value="frontender">Frontender</option>
+                <option value="backender">Backender</option>
+                <option value="fullstack">Fullstack</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend> Would you recommend freecodecamp to a friend?</legend>
+
+            <label for="definitely"><input type="radio" class="inline" id="definitely" placeholder="Definitely"
+                    name="definitely-maybe-not sure"> Definitely</label>
+            <label for="maybe"> <input type="radio" class="inline" id="maybe" placeholder="Maybe" name="definitely-maybe-not sure">
+                Maybe</label>
+
+            <label for="not sure"> <input type="radio" class="inline" id="not sure" placeholder="Not Sure"
+                    name="definitely-maybe-not sure"> Not Sure</label>
+        </fieldset>
+        <fieldset>
+
+            <legend> Which is your favourite feature of FreeCodeCamp?</legend><select name="feature"
+                id="feature-select">
+                <option value="">Select an option</option>
+                <option value="html">html</option>
+                <option value="css">CSS</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend> What would you like to see improved? (Check all that apply)</legend>
+            <label for="front-end projects"></label><input type="checkbox" class="inline" id="front-end projects"
+                placeholder="Front-end projects" value="front-end projects"> Front-end projects</label>
+            <label for="back-end projects"><input type="checkbox" class="inline" id="back-end projects" placeholder="Back-end projects"
+                    value="back-end projects"> Back-end projects</label>
+            <label for="data visualization"><input type="checkbox" class="inline" id="data visualization"
+                    placeholder="Data visualization" value="data visualizaion"> Data visualization</label>
+
+            <label for="challenges"><input type="checkbox" class="inline" id="challenges" placeholder="Challenges" value="challenges">
+                Challenges</label>
+            <label for="Open Source Community"><input type="checkbox" class="inline" id="Open Source Community"
+                    placeholder="Open Source Community" value="Open Source Community"> Open Source Community</label>
+            <label for="Gitter help rooms"><input type="checkbox" class="inline" id="Gitter help rooms" placeholder="Gitter help rooms"
+                    value="Gitter help rooms"> Gitter help rooms</label>
+            <label for="Videos"><input type="checkbox" class="inline" id="Videos" placeholder="Videos" value="Videos"> Videos</label>
+
+            <label for="City Meetups"><input type="checkbox" class="inline" id="City Meetups" placeholder="City Meetups"
+                    value="City Meetups"> City Meetups</label>
+            <label for="Wiki"><input type="checkbox" class="inline" id="Wiki" placeholder="Wiki" value="Wiki"> Wiki</label>
+            <label for="Forum"><input type="checkbox" class="inline" id="Forum" placeholder="Forum" value="Forum"> Forum</label>
+            <label for="Additional courses"><input type="checkbox" class="inline" id="Additional courses"
+                    placeholder="Additional courses" value="Additional courses"> Additional courses</label>
+        </fieldset>
+        <legend> Any comments or suggestions?</legend>
+        <label for="comments"> <textarea type="text" placeholder="Enter your comments here..." rows="3" cols="30"></textarea></label>
+        <button>Submit</button>
+    </div>
+</body>
+
+</html>
